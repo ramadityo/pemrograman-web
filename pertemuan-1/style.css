@@ -56,6 +56,13 @@ h1 {
 
 .inline-block {
     display: inline-block;
+    padding: 1rem 2rem;
+    background: crimson;
+    color: whitesmoke;
+    outline: none;
+    border: none;
+
+    border-radius: 2rem;
 }
 
 button {
