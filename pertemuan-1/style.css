@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+nav {
+    max-width: 100%;
+    height: 10vh;
+    background: #040404;
+    padding-left: 2rem;
+
+    ul {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        gap: 2rem;
+        li {
+            a {
+                font-size: 2rem;
+
+                color: whitesmoke;
+            }
+        }
+    }
+}
+
+hr {
+    margin: 2rem 0;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 2rem 0;
+    width: max-content;
+}
+
+.kontak-form {
+    width: 30rem;
+    margin: 0 auto;
+
+    form {
+        font-size: 1.5rem;
+    }
+}
+
+.radio {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+button {
+    padding: 1rem 2rem;
+    background: crimson;
+    color: whitesmoke;
+    outline: none;
+    border: none;
+
+    border-radius: 2rem;
+}
+
+.paragraf {
+    font-size: 1.5rem;
+}

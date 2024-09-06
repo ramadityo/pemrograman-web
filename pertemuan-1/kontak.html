@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Home</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+
+        <div class="kontak-form">
+            <h1>Formulir Kontak:</h1>
+
+            <form>
+                <label for="nama">Nama: </label>
+                <input type="text" name="nama" id="nama" />
+                <br />
+                <br />
+                <p>Kewarganegaraan:</p>
+                <input type="radio" id="wni" name="kewarganegaraan" value="WNI" />
+                <label for="wni">WNI</label><br />
+                <input type="radio" id="asing" name="kewarganegaraan" value="Asing" />
+                <label for="asing">Asing</label><br />
+                <br />
+                <br />
+                <p>Layanan:</p>
+                <input type="checkbox" name="layanan" id="website" />
+                <label for="website">Website</label><br />
+                <input type="checkbox" name="layanan" id="email" />
+                <label for="email">Email</label><br />
+                <br />
+
+                <button class="inline-block">Kirim</button>
+                <button class="inline-block">Hapus</button>
+            </form>
+        </div>
+    </body>
+</html>
